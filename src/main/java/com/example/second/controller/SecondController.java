@@ -18,4 +18,9 @@ public class SecondController {
         return "sentence 123";
     }
 
+    @GetMapping("/point")
+    public String getPoint(){
+        return "point";
+    }
+
 }
