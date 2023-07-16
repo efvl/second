@@ -16,4 +16,9 @@ public class MainController {
     public String getApple(){
         return "main apple";
     }
+
+    @RequestMapping("/banana")
+    public String getBanana(){
+        return "main banana";
+    }
 }
