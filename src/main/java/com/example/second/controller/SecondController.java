@@ -18,13 +18,7 @@ public class SecondController {
         return "second result";
     }
 
-
-    @GetMapping("/point")
-    public String getPoint(){
-        return "second point";
-    }
-
-    @GetMapping("/merge")
+    @GetMapping("/task99")
     public String getMerge(){
         return "second merge";
     }
