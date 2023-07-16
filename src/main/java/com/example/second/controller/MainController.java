@@ -7,14 +7,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/main")
 public class MainController {
 
-    @RequestMapping("/one")
+    @RequestMapping("/iceCherry")
     public String getOnePoint(){
-        return "main one";
+        return "main ice cherry";
     }
 
-    @RequestMapping("/two")
-    public String getTwoPoint(){
-        return "main two";
+    @RequestMapping("/apple")
+    public String getApple(){
+        return "main apple";
     }
 
+    @RequestMapping("/banana")
+    public String getBanana(){
+        return "main banana";
+    }
 }

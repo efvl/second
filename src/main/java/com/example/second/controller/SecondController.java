@@ -8,25 +8,26 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/second")
 public class SecondController {
 
-    @GetMapping("/word")
-    public String getWord(){
-        return "second word";
-    }
-
-    @GetMapping("/result")
+    @GetMapping("/result2")
     public String getResult(){
-        return "second result";
+        String result = "result2";
+        return "second23 " + result;
     }
 
+    @GetMapping("/result/from")
+    public String getResultFrom(){
+        return "second resultFrom";
+    }
 
     @GetMapping("/point")
     public String getPoint(){
         return "second point";
     }
 
-    @GetMapping("/merge")
-    public String getMerge(){
-        return "second merge";
+    @GetMapping("/word")
+    public String getWord(){
+        return "second word";
     }
+
 
 }
