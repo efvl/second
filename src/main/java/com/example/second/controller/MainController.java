@@ -11,4 +11,9 @@ public class MainController {
     public String getOnePoint(){
         return "main ice";
     }
+
+    @RequestMapping("/apple")
+    public String getApple(){
+        return "main apple";
+    }
 }
