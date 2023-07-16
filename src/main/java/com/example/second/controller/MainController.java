@@ -12,9 +12,4 @@ public class MainController {
         return "main one";
     }
 
-    @RequestMapping("/two")
-    public String getTwoPoint(){
-        return "main two";
-    }
-
 }
