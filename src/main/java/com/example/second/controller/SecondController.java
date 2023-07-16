@@ -13,9 +13,9 @@ public class SecondController {
         return "second word";
     }
 
-    @GetMapping("/result")
+    @GetMapping("/result99")
     public String getResult(){
-        return "second result";
+        return "second result99";
     }
 
     @GetMapping("/task99")
