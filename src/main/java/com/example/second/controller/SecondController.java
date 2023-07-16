@@ -13,20 +13,24 @@ public class SecondController {
         return "second word";
     }
 
+    @GetMapping("/fork55")
+    public String getFork(){
+        return "second fork55";
+    }
+
     @GetMapping("/result")
     public String getResult(){
         return "second result";
     }
 
+    @GetMapping("/result/from")
+    public String getResultFrom(){
+        return "second resultFrom";
+    }
 
     @GetMapping("/point")
     public String getPoint(){
         return "second point";
-    }
-
-    @GetMapping("/merge")
-    public String getMerge(){
-        return "second merge";
     }
 
 }
