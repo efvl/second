@@ -13,14 +13,10 @@ public class SecondController {
         return "second word";
     }
 
-    @GetMapping("/fork55")
-    public String getFork(){
-        return "second fork55";
-    }
-
     @GetMapping("/result")
     public String getResult(){
-        return "second result";
+        String result = "result";
+        return "second23 " + result;
     }
 
     @GetMapping("/result/from")
