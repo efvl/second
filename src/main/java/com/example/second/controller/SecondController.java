@@ -24,4 +24,9 @@ public class SecondController {
         return "second point";
     }
 
+    @GetMapping("/merge")
+    public String getMerge(){
+        return "second merge";
+    }
+
 }
