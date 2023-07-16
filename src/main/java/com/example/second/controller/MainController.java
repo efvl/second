@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/main")
 public class MainController {
 
-    @RequestMapping("/ice")
+    @RequestMapping("/iceCherry")
     public String getOnePoint(){
-        return "main ice";
+        return "main ice cherry";
     }
 
     @RequestMapping("/apple")
