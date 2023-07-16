@@ -13,20 +13,5 @@ public class SecondController {
         return "second word";
     }
 
-    @GetMapping("/result")
-    public String getResult(){
-        String result = "result";
-        return "second23 " + result;
-    }
-
-    @GetMapping("/result/from")
-    public String getResultFrom(){
-        return "second resultFrom";
-    }
-
-    @GetMapping("/point")
-    public String getPoint(){
-        return "second point";
-    }
 
 }
