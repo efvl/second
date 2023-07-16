@@ -24,4 +24,10 @@ public class SecondController {
         return "second point";
     }
 
+    @GetMapping("/word")
+    public String getWord(){
+        return "second word";
+    }
+
+
 }

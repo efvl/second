@@ -11,5 +11,4 @@ public class MainController {
     public String getOnePoint(){
         return "main ice";
     }
-
 }
