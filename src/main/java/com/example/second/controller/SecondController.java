@@ -13,14 +13,9 @@ public class SecondController {
         return "second word";
     }
 
-    @GetMapping("/s123")
-    public String getSentence(){
-        return "sentence 123";
-    }
-
     @GetMapping("/point")
     public String getPoint(){
-        return "point";
+        return "second point";
     }
 
 }
