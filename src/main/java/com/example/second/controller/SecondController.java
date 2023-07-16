@@ -13,6 +13,12 @@ public class SecondController {
         return "second word";
     }
 
+    @GetMapping("/result")
+    public String getResult(){
+        return "second result";
+    }
+
+
     @GetMapping("/point")
     public String getPoint(){
         return "second point";
