@@ -8,14 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/second")
 public class SecondController {
 
-    @GetMapping("/word")
-    public String getWord(){
-        return "second word";
-    }
-
-    @GetMapping("/result")
+    @GetMapping("/result2")
     public String getResult(){
-        String result = "result";
+        String result = "result2";
         return "second23 " + result;
     }
 
