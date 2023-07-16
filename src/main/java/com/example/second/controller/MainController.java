@@ -12,4 +12,8 @@ public class MainController {
         return "main one";
     }
 
+    @RequestMapping("/coffe")
+    public String getPoint(){
+        return "main coffee";
+    }
 }
